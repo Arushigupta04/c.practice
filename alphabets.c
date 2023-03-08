@@ -10,17 +10,17 @@
 
 #include<stdio.h>
 int main(){
-    int x;
+    iint a;
     printf("enter the row: ");
-    scanf("%d",&x);
-    int y;
+    scanf("%f",&a);
+    int b;
     printf("enter the row: ");
-    scanf("%d",&y);
+    scanf("%f",&b);
     // int ch=65;
-    for (int i = 1; i <= x; i++)//no. of lines
+    for (int i = 1; i <= a; i++)//no. of lines
     {
         int ch=65;
-        for (int j = 1; j <=y; j++)//no.of star
+        for (int j = 1; j <=b; j++)//no.of star
         {
             printf("%c",ch);
             ch=ch+1;
